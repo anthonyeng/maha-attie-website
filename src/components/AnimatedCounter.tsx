@@ -49,11 +49,11 @@ export default function AnimatedCounter({
     <div ref={ref} className={clsx('text-center', className)}>
       <span
         ref={displayRef}
-        className="font-serif text-5xl text-bronze"
+        className="block font-serif text-6xl font-light text-ink-soft lg:text-7xl"
       >
         0{suffix}
       </span>
-      <p className="mt-2 font-sans text-sm text-muted">{label}</p>
+      <p className="mt-3 font-sans text-sm font-medium uppercase tracking-[0.15em] text-muted">{label}</p>
     </div>
   )
 }

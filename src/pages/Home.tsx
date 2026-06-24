@@ -13,7 +13,7 @@ import SectionHeading from '../components/SectionHeading'
 import GradientMesh from '../components/GradientMesh'
 import Marquee from '../components/Marquee'
 import AnimatedCounter from '../components/AnimatedCounter'
-import SectionDivider from '../components/SectionDivider'
+// SectionDivider removed from this page
 import { services } from '../data/services'
 import { testimonials } from '../data/testimonials'
 import { articles } from '../data/articles'
@@ -159,30 +159,23 @@ function TrustStrip() {
 
 function StatsSection() {
   return (
-    <>
-      <SectionDivider variant="wave" color="ink" />
-      <section className="bg-ink py-24 lg:py-32">
-        <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
-          <Reveal>
-            <Eyebrow className="mb-12 text-paper/60">By the Numbers</Eyebrow>
-          </Reveal>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {siteStats.map((stat, i) => (
-              <Reveal key={stat.label} delay={i * 0.08}>
-                <div className="backdrop-blur-md bg-ink-soft/60 border border-paper/10 rounded-sm p-8">
-                  <AnimatedCounter
-                    end={stat.value}
-                    suffix={stat.suffix}
-                    label={stat.label}
-                  />
-                </div>
-              </Reveal>
-            ))}
-          </div>
+    <section className="py-24 lg:py-32 border-t border-b border-line">
+      <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 text-center">
+          {siteStats.map((stat, i) => (
+            <Reveal key={stat.label} delay={i * 0.1}>
+              <div>
+                <AnimatedCounter
+                  end={stat.value}
+                  suffix={stat.suffix}
+                  label={stat.label}
+                />
+              </div>
+            </Reveal>
+          ))}
         </div>
-      </section>
-      <SectionDivider variant="wave" color="paper" flip />
-    </>
+      </div>
+    </section>
   )
 }
 
