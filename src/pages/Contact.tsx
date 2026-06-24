@@ -1,11 +1,11 @@
-import { useState, useRef, FormEvent } from 'react'
+import { useState, useRef, type FormEvent } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Seo from '../components/Seo'
 import AnimatedPageHeader from '../components/AnimatedPageHeader'
 import Reveal from '../components/Reveal'
 import GlassCard from '../components/GlassCard'
 import clsx from 'clsx'
-import { Calendar, CheckCircle, Clock } from 'lucide-react'
+import { Calendar, Clock } from 'lucide-react'
 
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/FORMSPREE_ENDPOINT' // <-- Replace with your Formspree endpoint
 

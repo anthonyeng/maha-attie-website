@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { HelmetProvider } from 'react-helmet-async'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Layout from './components/Layout'
+import Preloader from './components/Preloader'
 import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
@@ -11,6 +12,9 @@ import Markets from './pages/Markets'
 import Journal from './pages/Journal'
 import Article from './pages/Article'
 import Contact from './pages/Contact'
+import Portfolio from './pages/Portfolio'
+import Faq from './pages/Faq'
+import Privacy from './pages/Privacy'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -43,6 +47,9 @@ function AnimatedRoutes() {
             <Route path="/journal" element={<Journal />} />
             <Route path="/journal/:slug" element={<Article />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/faq" element={<Faq />} />
+            <Route path="/privacy" element={<Privacy />} />
           </Route>
         </Routes>
       </motion.div>
@@ -51,12 +58,21 @@ function AnimatedRoutes() {
 }
 
 export default function App() {
+  const [preloaderDone, setPreloaderDone] = useState(false)
+
   return (
     <HelmetProvider>
-      <BrowserRouter>
-        <ScrollToTop />
-        <AnimatedRoutes />
-      </BrowserRouter>
+      <AnimatePresence mode="wait">
+        {!preloaderDone && (
+          <Preloader key="preloader" onComplete={() => setPreloaderDone(true)} />
+        )}
+      </AnimatePresence>
+      {preloaderDone && (
+        <BrowserRouter>
+          <ScrollToTop />
+          <AnimatedRoutes />
+        </BrowserRouter>
+      )}
     </HelmetProvider>
   )
 }

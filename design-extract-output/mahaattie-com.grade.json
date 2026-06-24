@@ -1,0 +1,30 @@
+{
+  "url": "https://mahaattie.com",
+  "title": "Maha Attié | Real Eatate Advisory",
+  "timestamp": "2026-06-24T09:21:28.013Z",
+  "grade": "B",
+  "overall": 89,
+  "scores": {
+    "colorDiscipline": 100,
+    "typographyConsistency": 80,
+    "spacingSystem": 85,
+    "shadowConsistency": 100,
+    "radiusConsistency": 100,
+    "accessibility": 100,
+    "cssHealth": 35,
+    "tokenization": 100
+  },
+  "strengths": [
+    "Tight, disciplined color palette",
+    "Well-defined spacing scale",
+    "Clean elevation system",
+    "Consistent border radii",
+    "Strong accessibility compliance",
+    "Good CSS variable tokenization"
+  ],
+  "issues": [
+    "826 !important rules — prefer specificity over overrides",
+    "86% of CSS is unused — consider purging",
+    "16594 duplicate CSS declarations"
+  ]
+}

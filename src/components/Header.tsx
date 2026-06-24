@@ -42,8 +42,9 @@ export default function Header() {
               <Link
                 key={link.path}
                 to={link.path}
+                data-cursor="grow"
                 className={clsx(
-                  'relative font-sans text-sm font-medium tracking-wide transition-colors duration-300 hover:text-bronze',
+                  'relative font-sans text-sm font-medium tracking-wide transition-all duration-300 hover:text-bronze hover:bg-bronze/5 px-3 py-1.5 -mx-3 rounded-sm',
                   location.pathname === link.path ? 'text-bronze' : 'text-ink'
                 )}
               >
@@ -61,6 +62,7 @@ export default function Header() {
           <div className="hidden lg:block">
             <Link
               to="/contact"
+              data-cursor="grow"
               className="inline-flex items-center bg-bronze px-6 py-2.5 text-xs font-medium uppercase tracking-[0.12em] text-paper transition-all duration-300 hover:bg-bronze-dk hover:-translate-y-px"
             >
               Book a Consultation
@@ -97,6 +99,7 @@ export default function Header() {
                 >
                   <Link
                     to={link.path}
+                    data-cursor="grow"
                     className={clsx(
                       'font-serif text-3xl font-semibold transition-colors duration-300 hover:text-bronze',
                       location.pathname === link.path ? 'text-bronze' : 'text-ink'
@@ -114,6 +117,7 @@ export default function Header() {
               >
                 <Link
                   to="/contact"
+                  data-cursor="grow"
                   className="mt-4 inline-flex bg-bronze px-8 py-3.5 text-sm font-medium uppercase tracking-[0.12em] text-paper"
                   onClick={() => setMobileOpen(false)}
                 >

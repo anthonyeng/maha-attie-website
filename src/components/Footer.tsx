@@ -50,7 +50,7 @@ export default function Footer() {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-colors hover:text-bronze"
+                  className="relative transition-colors hover:text-bronze after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-bronze after:transition-all after:duration-300 hover:after:w-full"
                 >
                   Instagram
                 </a>
@@ -58,20 +58,29 @@ export default function Footer() {
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-colors hover:text-bronze"
+                  className="relative transition-colors hover:text-bronze after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-bronze after:transition-all after:duration-300 hover:after:w-full"
                 >
                   LinkedIn
                 </a>
               </div>
-              <div className="mt-4 flex gap-6 text-sm text-paper/80">
-                <Link to="/contact" className="transition-colors hover:text-bronze">
+              <div className="mt-4 flex flex-wrap gap-6 text-sm text-paper/80">
+                <Link to="/privacy" className="relative transition-colors hover:text-bronze after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-bronze after:transition-all after:duration-300 hover:after:w-full">
                   Legal
+                </Link>
+                <Link to="/privacy" className="relative transition-colors hover:text-bronze after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-bronze after:transition-all after:duration-300 hover:after:w-full">
+                  Privacy
+                </Link>
+                <Link to="/faq" className="relative transition-colors hover:text-bronze after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-bronze after:transition-all after:duration-300 hover:after:w-full">
+                  FAQ
+                </Link>
+                <Link to="/portfolio" className="relative transition-colors hover:text-bronze after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-bronze after:transition-all after:duration-300 hover:after:w-full">
+                  Portfolio
                 </Link>
                 <a
                   href="https://skyriseme.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-colors hover:text-bronze"
+                  className="relative transition-colors hover:text-bronze after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-bronze after:transition-all after:duration-300 hover:after:w-full"
                 >
                   Visit SkyRise
                 </a>
