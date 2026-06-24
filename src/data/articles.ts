@@ -19,7 +19,7 @@ export const articles: Article[] = [
     title: 'Timing Is a Discipline, Not a Forecast',
     excerpt: 'Why the best decisions are about readiness, not prediction.',
     date: '2 May 2026',
-    image: 'https://images.unsplash.com/photo-1464938050520-ef2571e0d6e0?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80',
   },
   {
     slug: 'framing-before-the-deal',
