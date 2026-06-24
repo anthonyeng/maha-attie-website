@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useRef } from 'react'
 import { motion, useReducedMotion, useMotionValue, useScroll, useTransform } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Compass, Frame, Shield, Building2, Lock } from 'lucide-react'
@@ -13,8 +13,6 @@ import SectionHeading from '../components/SectionHeading'
 import GradientMesh from '../components/GradientMesh'
 import Marquee from '../components/Marquee'
 import AnimatedCounter from '../components/AnimatedCounter'
-import GlassCard from '../components/GlassCard'
-import InteractiveMap from '../components/InteractiveMap'
 import SectionDivider from '../components/SectionDivider'
 import { services } from '../data/services'
 import { testimonials } from '../data/testimonials'
@@ -339,8 +337,8 @@ function DarkInterlude() {
             ))}
           </h2>
           <PhotoFrame
-            src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/9cb5004a-1f74-414f-b3bc-eb62f437f450/56cc8da880100a0bd7cb09300dcf21a2.jpg"
-            alt="Real estate advisory — disciplined execution"
+            src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/7265c468-a466-474f-9a20-912f4cba4213/sisi+lafricaine18569.jpg"
+            alt="Maha Attié — private real estate advisory"
             aspect="aspect-[4/5]"
           />
         </div>
@@ -406,24 +404,24 @@ function HorizontalScrollGallery() {
 
   const galleryImages = [
     {
-      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/87f02aeb-e81c-41a5-8b62-52827d3c490b/sisi+lafricaine19522.jpg',
-      alt: 'Maha Attie — arms crossed portrait',
+      src: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80',
+      alt: 'Luxury villa with pool',
     },
     {
-      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/7265c468-a466-474f-9a20-912f4cba4213/sisi+lafricaine18569.jpg',
-      alt: 'Maha Attie near window',
+      src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
+      alt: 'Modern residential estate',
     },
     {
-      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/9cb5004a-1f74-414f-b3bc-eb62f437f450/56cc8da880100a0bd7cb09300dcf21a2.jpg',
-      alt: 'Living room interior',
+      src: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80',
+      alt: 'Contemporary coastal property',
     },
     {
-      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/8437e5aa-4598-4eee-9944-0f9546b3a2a3/WhatsApp+Image+2026-05-04+at+18.20.58.jpeg',
-      alt: 'Lifestyle magazine',
+      src: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80',
+      alt: 'Commercial tower development',
     },
     {
-      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/69ab4d05-e6cd-43e2-9cf6-a7413d04b335/sisi+lafricaine18405.jpg',
-      alt: 'Maha Attie — white suit portrait',
+      src: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80',
+      alt: 'Premium apartment interior',
     },
   ]
 
@@ -461,22 +459,32 @@ function SkyRiseBand() {
   return (
     <section className="bg-stone">
       <div className="mx-auto max-w-[1280px] px-6 py-24 lg:px-12 lg:py-32">
-        <Reveal>
-          <Eyebrow className="mb-6">Operational Partner</Eyebrow>
-          <p className="max-w-3xl text-lg leading-relaxed text-ink/80">
-            My advisory work is supported by SkyRise, a real estate and
-            contracting firm with over 15 years of operational experience across
-            Lebanon, Cyprus, and Greece. While I focus on strategy, judgment, and
-            long-term decision-making, SkyRise provides the operational
-            infrastructure: transactions, property management, and project
-            execution.
-          </p>
-          <div className="mt-8">
-            <Button href="https://skyriseme.com/" variant="link">
-              Visit SkyRise
-            </Button>
-          </div>
-        </Reveal>
+        <div className="grid gap-12 lg:grid-cols-[1fr_0.8fr] lg:gap-20 items-center">
+          <Reveal>
+            <Eyebrow className="mb-6">Operational Partner</Eyebrow>
+            <p className="text-lg leading-relaxed text-ink/80">
+              My advisory work is supported by SkyRise, a real estate and
+              contracting firm with over 15 years of operational experience across
+              Lebanon, Cyprus, and Greece. While I focus on strategy, judgment, and
+              long-term decision-making, SkyRise provides the operational
+              infrastructure: transactions, property management, and project
+              execution.
+            </p>
+            <div className="mt-8">
+              <Button href="https://skyriseme.com/" variant="link">
+                Visit SkyRise
+              </Button>
+            </div>
+          </Reveal>
+          <Reveal delay={0.15}>
+            <PhotoFrame
+              src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/9cb5004a-1f74-414f-b3bc-eb62f437f450/56cc8da880100a0bd7cb09300dcf21a2.jpg"
+              alt="SkyRise — operational partner"
+              aspect="aspect-[4/3]"
+              parallax
+            />
+          </Reveal>
+        </div>
       </div>
     </section>
   )
@@ -485,41 +493,31 @@ function SkyRiseBand() {
 /* ───────────────────────── 11. Map Section ───────────────────────── */
 
 function MapSection() {
-  const [activeMarket, setActiveMarket] = useState<string | null>(null)
-
   return (
     <section className="mx-auto max-w-[1280px] px-6 py-24 lg:px-12 lg:py-32">
       <Reveal>
-        <Eyebrow className="mb-12">Where We Operate</Eyebrow>
+        <SectionHeading eyebrow="Where We Operate" headline="Three markets, one discipline." className="mb-16" />
       </Reveal>
-      <div className="max-w-3xl mx-auto mb-12">
-        <InteractiveMap
-          activeMarket={activeMarket ?? undefined}
-          onMarketHover={(name) => setActiveMarket(name)}
-        />
-      </div>
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-8 md:grid-cols-3">
         {markets.map((market, i) => (
-          <Reveal key={market.name} delay={i * 0.08}>
-            <GlassCard
-              className={`transition-all duration-300 cursor-pointer ${
-                activeMarket === market.name
-                  ? 'border-bronze/60 shadow-[0_4px_30px_rgba(29,41,68,0.15)]'
-                  : ''
-              }`}
-            >
-              <div
-                onMouseEnter={() => setActiveMarket(market.name)}
-                onMouseLeave={() => setActiveMarket(null)}
-              >
-                <h3 className="font-serif text-xl font-semibold text-ink mb-2">
-                  {market.name}
-                </h3>
-                <p className="text-sm text-muted leading-relaxed">
-                  {market.description}
-                </p>
+          <Reveal key={market.name} delay={i * 0.1}>
+            <Link to="/markets" className="group block">
+              <div className="overflow-hidden rounded-sm mb-5">
+                <motion.div whileHover={{ scale: 1.04 }} transition={{ duration: 0.6 }}>
+                  <PhotoFrame
+                    src={market.image}
+                    alt={`Real estate in ${market.name}`}
+                    aspect="aspect-[4/3]"
+                  />
+                </motion.div>
               </div>
-            </GlassCard>
+              <h3 className="font-serif text-2xl font-semibold text-ink mb-2 group-hover:text-bronze transition-colors">
+                {market.name}
+              </h3>
+              <p className="text-sm text-muted leading-relaxed">
+                {market.description}
+              </p>
+            </Link>
           </Reveal>
         ))}
       </div>
