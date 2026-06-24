@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import Seo from '../components/Seo'
 import SectionHeading from '../components/SectionHeading'
-import Reveal from '../components/Reveal'
 import PhotoFrame from '../components/PhotoFrame'
 import { articles } from '../data/articles'
 
@@ -21,7 +20,20 @@ export default function Journal() {
 
           <div className="grid gap-16 md:grid-cols-2 lg:grid-cols-3">
             {articles.map((article, i) => (
-              <Reveal key={article.slug} delay={i * 0.08}>
+              <motion.div
+                key={article.slug}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-10%' }}
+                transition={{
+                  type: 'spring',
+                  stiffness: 80,
+                  damping: 18,
+                  delay: i * 0.12,
+                }}
+                whileHover={{ y: -4, boxShadow: '0 8px 30px rgba(0,0,0,0.08)' }}
+                className="rounded-lg"
+              >
                 <Link to={`/journal/${article.slug}`} className="group block">
                   <div className="overflow-hidden mb-6">
                     <motion.div whileHover={{ scale: 1.03 }} transition={{ duration: 0.5 }}>
@@ -39,7 +51,7 @@ export default function Journal() {
                     Read more &rarr;
                   </span>
                 </Link>
-              </Reveal>
+              </motion.div>
             ))}
           </div>
         </div>

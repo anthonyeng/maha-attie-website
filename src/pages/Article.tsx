@@ -1,4 +1,6 @@
+import { useRef } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import Seo from '../components/Seo'
 import Eyebrow from '../components/Eyebrow'
 import Reveal from '../components/Reveal'
@@ -36,6 +38,13 @@ export default function Article() {
   const content = slug ? articleContent[slug] : undefined
   const otherArticles = articles.filter((a) => a.slug !== slug)
 
+  const articleBodyRef = useRef<HTMLDivElement>(null)
+  const { scrollYProgress } = useScroll({
+    target: articleBodyRef,
+    offset: ['start start', 'end end'],
+  })
+  const scaleX = useTransform(scrollYProgress, [0, 1], [0, 1])
+
   if (!article || !content) {
     return (
       <div className="pt-36 pb-24 text-center">
@@ -51,7 +60,13 @@ export default function Article() {
     <>
       <Seo title={article.title} description={article.excerpt} path={`/journal/${slug}`} />
 
-      <article className="pt-36 pb-24">
+      {/* Reading progress bar */}
+      <motion.div
+        style={{ scaleX, transformOrigin: '0% 50%' }}
+        className="fixed top-[64px] left-0 right-0 z-50 h-[2px] bg-bronze"
+      />
+
+      <article className="pt-36 pb-24" ref={articleBodyRef}>
         <div className="mx-auto max-w-[680px] px-6">
           <Reveal>
             <Eyebrow className="mb-4">Journal</Eyebrow>
