@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import "@fontsource-variable/cormorant-garamond";
+@import "@fontsource-variable/inter";
+
+@theme {
+  --color-ink: #15202D;
+  --color-ink-soft: #27313D;
+  --color-paper: #EDE9E1;
+  --color-stone: #E3DDD2;
+  --color-bronze: #A06A3B;
+  --color-bronze-dk: #8A5A30;
+  --color-muted: #6A6258;
+  --color-line: #D6CFC2;
+
+  --font-serif: "Cormorant Garamond Variable", "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter Variable", "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  line-height: 1.7;
+  font-size: 1.0625rem;
+  margin: 0;
+}
+
+::selection {
+  background-color: var(--color-bronze);
+  color: var(--color-paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-bronze);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
