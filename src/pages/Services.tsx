@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { Compass, Frame, Shield, Building2, Lock, Check } from 'lucide-react'
 import Seo from '../components/Seo'
 import AnimatedPageHeader from '../components/AnimatedPageHeader'
@@ -103,7 +104,7 @@ export default function Services() {
                         <p className="text-muted leading-relaxed mb-4">
                           {s.longDescription}
                         </p>
-                        <ul className="grid gap-2 sm:grid-cols-2">
+                        <ul className="grid gap-2 sm:grid-cols-2 mb-4">
                           {s.features.map((feature) => (
                             <li key={feature} className="flex items-start gap-2 text-sm text-ink">
                               <Check size={16} className="mt-0.5 flex-shrink-0 text-bronze" />
@@ -111,6 +112,12 @@ export default function Services() {
                             </li>
                           ))}
                         </ul>
+                        <Link
+                          to={`/services/${s.slug}`}
+                          className="inline-flex items-center gap-1 text-sm font-medium uppercase tracking-[0.08em] text-bronze hover:text-bronze-dk transition-colors"
+                        >
+                          Learn more <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
+                        </Link>
                       </div>
                     </div>
                   </Accordion>

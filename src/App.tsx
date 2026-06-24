@@ -15,6 +15,7 @@ import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 import Faq from './pages/Faq'
 import Privacy from './pages/Privacy'
+import ServiceDetail from './pages/ServiceDetail'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -42,6 +43,7 @@ function AnimatedRoutes() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/services/:slug" element={<ServiceDetail />} />
             <Route path="/approach" element={<Approach />} />
             <Route path="/markets" element={<Markets />} />
             <Route path="/journal" element={<Journal />} />

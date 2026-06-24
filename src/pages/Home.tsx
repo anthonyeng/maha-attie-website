@@ -271,7 +271,10 @@ function ServicesPreview() {
           const IconComponent = iconMap[s.icon]
           return (
             <Reveal key={s.index} delay={i * 0.06}>
-              <div className="group flex items-center gap-6 border-t border-line py-6 lg:gap-12 transition-all duration-300 hover:pl-4 hover:bg-gradient-to-r hover:from-bronze/[0.04] hover:to-transparent">
+              <Link
+                to={`/services/${s.slug}`}
+                className="group flex items-center gap-6 border-t border-line py-6 lg:gap-12 transition-all duration-300 hover:pl-4 hover:bg-gradient-to-r hover:from-bronze/[0.04] hover:to-transparent cursor-pointer"
+              >
                 {/* Bronze left border on hover */}
                 <div className="w-[3px] self-stretch bg-transparent group-hover:bg-bronze transition-colors duration-300 rounded-full -ml-4 mr-2 flex-shrink-0" />
                 <IndexNumeral index={s.index} />
@@ -282,12 +285,12 @@ function ServicesPreview() {
                   />
                 )}
                 <div>
-                  <h3 className="font-serif text-xl font-semibold text-ink lg:text-2xl">
+                  <h3 className="font-serif text-xl font-semibold text-ink lg:text-2xl group-hover:text-bronze transition-colors">
                     {s.title}
                   </h3>
                   <p className="mt-1 text-muted">{s.description}</p>
                 </div>
-              </div>
+              </Link>
             </Reveal>
           )
         })}
