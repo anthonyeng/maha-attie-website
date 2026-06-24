@@ -22,7 +22,7 @@ export default function GlassCard({
         hoverable
           ? {
               y: -2,
-              boxShadow: '0 4px 30px rgba(160,106,59,0.15)',
+              boxShadow: '0 4px 30px rgba(29,41,68,0.15)',
             }
           : undefined
       }

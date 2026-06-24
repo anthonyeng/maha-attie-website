@@ -57,7 +57,7 @@ export default function Markets() {
                   className={clsx(
                     'cursor-pointer transition-all duration-300',
                     hoveredMarket === market.name
-                      ? 'border-bronze shadow-[0_2px_24px_rgba(160,106,59,0.18)]'
+                      ? 'border-bronze shadow-[0_2px_24px_rgba(29,41,68,0.18)]'
                       : ''
                   )}
                   hoverable

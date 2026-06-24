@@ -1,0 +1,1463 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#1d2944",
+        "rgb": {
+          "r": 29,
+          "g": 41,
+          "b": 68,
+          "a": 1
+        },
+        "hsl": {
+          "h": 222,
+          "s": 40,
+          "l": 19
+        },
+        "count": 688,
+        "contexts": [
+          "background",
+          "border",
+          "text"
+        ]
+      },
+      {
+        "hex": "#e4e8ec",
+        "rgb": {
+          "r": 228,
+          "g": 232,
+          "b": 236,
+          "a": 1
+        },
+        "hsl": {
+          "h": 210,
+          "s": 17,
+          "l": 91
+        },
+        "count": 471,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 239,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#8492ae",
+        "rgb": {
+          "r": 132,
+          "g": 146,
+          "b": 174,
+          "a": 1
+        },
+        "hsl": {
+          "h": 220,
+          "s": 21,
+          "l": 60
+        },
+        "count": 26,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 2,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#c1c1c1",
+        "rgb": {
+          "r": 193,
+          "g": 193,
+          "b": 193,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 76
+        },
+        "count": 1,
+        "contexts": [
+          "border"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 70.984375
+      },
+      "heading": null,
+      "buttonCount": 3,
+      "cardCount": 18,
+      "className": "dark header theme-col--primary"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 906.453125,
+        "y": 16.671875,
+        "w": 354.359375,
+        "h": 37.625
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "header-nav-list"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "header-nav-list"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 0,
+        "y": 90.984375,
+        "w": 1280,
+        "h": 729.015625
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 8,
+      "className": "header-menu-nav-list"
+    },
+    {
+      "role": "testimonials",
+      "tag": "main",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 5493.9375
+      },
+      "heading": "Strategic Real Estate Advisory For Long-Term Value",
+      "buttonCount": 23,
+      "cardCount": 37,
+      "className": "container"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 793.546875
+      },
+      "heading": "Strategic Real Estate Advisory For Long-Term Value",
+      "buttonCount": 3,
+      "cardCount": 0,
+      "className": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    dark"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 793.546875,
+        "w": 1280,
+        "h": 1609.5625
+      },
+      "heading": "I advise clients on real estate decisions with a focus on structure, timing, and long-term value. Each engagement is approached with clarity and discipline, ensuring that every step is aligned with both investment logic and personal objectives.",
+      "buttonCount": 3,
+      "cardCount": 0,
+      "className": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    dark"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 2403.109375,
+        "w": 1280,
+        "h": 496.015625
+      },
+      "heading": "\"Maha is on a mission to better grasp your needs and desires in order to bring them to life with unconditional commitment, safety and trust.\"",
+      "buttonCount": 4,
+      "cardCount": 34,
+      "className": "page-section \n    \n      user-items-list-section\n      full-bleed-section\n    \n    \n    \n      \n    \n    \n      \n    \n    \n    \n    \n      \n    \n    \n    dark"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 2899.125,
+        "w": 1280,
+        "h": 877.6875
+      },
+      "heading": "My advisory work is supported by SkyRise, a real estate and contracting firm with over 15 years of operational experience across Lebanon, Cyprus, and Greece.",
+      "buttonCount": 3,
+      "cardCount": 0,
+      "className": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    dark"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 3776.8125,
+        "w": 1280,
+        "h": 441.25
+      },
+      "heading": "Work with a real estate advisor who prioritizes your vision and protects your investment.",
+      "buttonCount": 3,
+      "cardCount": 0,
+      "className": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    light"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 4218.0625,
+        "w": 1280,
+        "h": 747.875
+      },
+      "heading": "How I Select the Right Property, A Structured Approach to Decisions.",
+      "buttonCount": 3,
+      "cardCount": 0,
+      "className": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    dark"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 4965.9375,
+        "w": 1280,
+        "h": 528
+      },
+      "heading": "Subscribe To Our Newletter",
+      "buttonCount": 4,
+      "cardCount": 1,
+      "className": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      section-height--medium\n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    dark-bold"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 332.34375,
+        "y": 5216.59375,
+        "w": 510.921875,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "newsletter-form-header"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "bounds": {
+        "x": 0,
+        "y": 5493.9375,
+        "w": 1280,
+        "h": 351.5625
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "sections"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 5493.9375,
+        "w": 1280,
+        "h": 351.5625
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "page-section \n    \n      full-bleed-section\n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      \n        section-height--custom\n      \n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    bright"
+    }
+  ],
+  "componentClusters": [
+    {
+      "kind": "button",
+      "structuralHash": "body>div>script>svg>div>script",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(29, 41, 68)",
+            "color": "rgb(228, 232, 236)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(228, 232, 236)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "a",
+      "instanceCount": 6,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(29, 41, 68)",
+            "color": "rgb(228, 232, 236)",
+            "padding": "1.9072px 0px 1.9072px 0px",
+            "borderRadius": "0px",
+            "border": "0px 0px 1px none none solid rgb(29, 41, 68)",
+            "fontSize": "19.072px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        },
+        {
+          "css": {
+            "background": "rgb(29, 41, 68)",
+            "color": "rgb(228, 232, 236)",
+            "padding": "3.8144px 15.2576px 3.8144px 15.2576px",
+            "borderRadius": "300px",
+            "border": "0px solid rgb(228, 232, 236)",
+            "fontSize": "19.072px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 2
+        },
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(29, 41, 68)",
+            "padding": "1.9072px 0px 1.9072px 0px",
+            "borderRadius": "0px",
+            "border": "0px 0px 1px none none solid rgb(29, 41, 68)",
+            "fontSize": "19.072px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div>div",
+      "instanceCount": 5,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(29, 41, 68)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(29, 41, 68)",
+            "fontSize": "22.144px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 4
+        },
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(228, 232, 236)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(228, 232, 236)",
+            "fontSize": "22.144px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div>a",
+      "instanceCount": 2,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(29, 41, 68)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(29, 41, 68)",
+            "fontSize": "22.144px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 1
+        },
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(228, 232, 236)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(228, 232, 236)",
+            "fontSize": "22.144px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div>a>script>style",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(29, 41, 68)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(29, 41, 68)",
+            "fontSize": "22.144px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>h2>div",
+      "instanceCount": 4,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(29, 41, 68)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(29, 41, 68)",
+            "fontSize": "22.144px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 4
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button>div>svg",
+      "instanceCount": 2,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "50%",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "22.144px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        }
+      ]
+    },
+    {
+      "kind": "input",
+      "structuralHash": "input",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "22.4px 32px 22.4px 32px",
+            "borderRadius": "0px",
+            "border": "1px solid rgba(0, 0, 0, 0.12)",
+            "fontSize": "22.144px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div>button",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(29, 41, 68)",
+            "padding": "8px 4px 8px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(29, 41, 68)",
+            "fontSize": "22.144px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button>span>span>span",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(29, 41, 68)",
+            "padding": "22.4px 32px 22.4px 32px",
+            "borderRadius": "0px",
+            "border": "0px 0px 1px none none solid rgb(29, 41, 68)",
+            "fontSize": "19.072px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "span",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(29, 41, 68)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(29, 41, 68)",
+            "fontSize": "19.072px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 1
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 809,
+        "usedBytes": 755,
+        "unusedBytes": 54,
+        "unusedPercent": 7
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 5448,
+        "usedBytes": 4228,
+        "unusedBytes": 1220,
+        "unusedPercent": 22
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 139,
+        "usedBytes": 66,
+        "unusedBytes": 73,
+        "unusedPercent": 53
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 569,
+        "usedBytes": 561,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 557,
+        "usedBytes": 549,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 569,
+        "usedBytes": 561,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 809,
+        "usedBytes": 755,
+        "unusedBytes": 54,
+        "unusedPercent": 7
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 4030,
+        "usedBytes": 3120,
+        "unusedBytes": 910,
+        "unusedPercent": 23
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 690,
+        "usedBytes": 672,
+        "unusedBytes": 18,
+        "unusedPercent": 3
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 62,
+        "usedBytes": 0,
+        "unusedBytes": 62,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 152,
+        "usedBytes": 0,
+        "unusedBytes": 152,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 3469,
+        "usedBytes": 2598,
+        "unusedBytes": 871,
+        "unusedPercent": 25
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 139,
+        "usedBytes": 66,
+        "unusedBytes": 73,
+        "unusedPercent": 53
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 809,
+        "usedBytes": 776,
+        "unusedBytes": 33,
+        "unusedPercent": 4
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 557,
+        "usedBytes": 549,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://static1.squarespace.com/static/versioned-site-css/69f0cf9a8c565a6461913bc2/37/5c5a519771c10ba3470d8101/69f0cf9a8c565a6461913bd1/1798/site.css?nocustom=true",
+        "totalBytes": 1270839,
+        "usedBytes": 210954,
+        "unusedBytes": 1059885,
+        "unusedPercent": 83
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 151,
+        "usedBytes": 78,
+        "unusedBytes": 73,
+        "unusedPercent": 48
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 557,
+        "usedBytes": 549,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 557,
+        "usedBytes": 549,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 111,
+        "usedBytes": 0,
+        "unusedBytes": 111,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/61d495c3-1495-4343-9186-b585214a5644_669/website.components.imageFluid.styles.css",
+        "totalBytes": 3034,
+        "usedBytes": 1864,
+        "unusedBytes": 1170,
+        "unusedPercent": 39
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 809,
+        "usedBytes": 755,
+        "unusedBytes": 54,
+        "unusedPercent": 7
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 557,
+        "usedBytes": 549,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 715,
+        "usedBytes": 682,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 557,
+        "usedBytes": 549,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 62,
+        "usedBytes": 0,
+        "unusedBytes": 62,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.button/1d4538bb-7c93-44ea-a060-a48f8d3ffce5_852/website.components.button.styles.css",
+        "totalBytes": 1341,
+        "usedBytes": 702,
+        "unusedBytes": 639,
+        "unusedPercent": 48
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 417,
+        "usedBytes": 0,
+        "unusedBytes": 417,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 649,
+        "usedBytes": 484,
+        "unusedBytes": 165,
+        "unusedPercent": 25
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 551,
+        "usedBytes": 0,
+        "unusedBytes": 551,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 690,
+        "usedBytes": 672,
+        "unusedBytes": 18,
+        "unusedPercent": 3
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 2677,
+        "usedBytes": 2073,
+        "unusedBytes": 604,
+        "unusedPercent": 23
+      },
+      {
+        "url": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1782143816750-40INN3DYKC7P0GHEIIAI/static.css",
+        "totalBytes": 474005,
+        "usedBytes": 13431,
+        "unusedBytes": 460574,
+        "unusedPercent": 97
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://assets.squarespace.com/universal/styles-compressed/user-account-core-307d50f196c01a72-min.en-US.css",
+        "totalBytes": 2301,
+        "usedBytes": 0,
+        "unusedBytes": 2301,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 569,
+        "usedBytes": 561,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 3976,
+        "usedBytes": 3086,
+        "unusedBytes": 890,
+        "unusedPercent": 22
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 557,
+        "usedBytes": 549,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 151,
+        "usedBytes": 78,
+        "unusedBytes": 73,
+        "unusedPercent": 48
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 557,
+        "usedBytes": 549,
+        "unusedBytes": 8,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/6026cdbc-2825-4399-a34e-e1e9370f4ed5_682/website.components.html.styles.css",
+        "totalBytes": 118,
+        "usedBytes": 116,
+        "unusedBytes": 2,
+        "unusedPercent": 2
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 808,
+        "usedBytes": 754,
+        "unusedBytes": 54,
+        "unusedPercent": 7
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 139,
+        "usedBytes": 66,
+        "unusedBytes": 73,
+        "unusedPercent": 53
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 4583,
+        "usedBytes": 3460,
+        "unusedBytes": 1123,
+        "unusedPercent": 25
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 715,
+        "usedBytes": 682,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 670,
+        "usedBytes": 637,
+        "unusedBytes": 33,
+        "unusedPercent": 5
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 702,
+        "usedBytes": 684,
+        "unusedBytes": 18,
+        "unusedPercent": 3
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 840,
+        "usedBytes": 786,
+        "unusedBytes": 54,
+        "unusedPercent": 6
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 490,
+        "usedBytes": 460,
+        "unusedBytes": 30,
+        "unusedPercent": 6
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 5861,
+        "usedBytes": 4092,
+        "unusedBytes": 1769,
+        "unusedPercent": 30
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 490,
+        "usedBytes": 460,
+        "unusedBytes": 30,
+        "unusedPercent": 6
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 490,
+        "usedBytes": 460,
+        "unusedBytes": 30,
+        "unusedPercent": 6
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 490,
+        "usedBytes": 460,
+        "unusedBytes": 30,
+        "unusedPercent": 6
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 490,
+        "usedBytes": 460,
+        "unusedBytes": 30,
+        "unusedPercent": 6
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 490,
+        "usedBytes": 460,
+        "unusedBytes": 30,
+        "unusedPercent": 6
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 490,
+        "usedBytes": 460,
+        "unusedBytes": 30,
+        "unusedPercent": 6
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 8,
+        "usedBytes": 0,
+        "unusedBytes": 8,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 393,
+        "usedBytes": 0,
+        "unusedBytes": 393,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 96,
+        "usedBytes": 0,
+        "unusedBytes": 96,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.mahaattie.com/",
+        "totalBytes": 157,
+        "usedBytes": 0,
+        "unusedBytes": 157,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://assets.squarespace.com/universal/styles-compressed/7041e1ee24e47d42-min.en-US.css",
+        "totalBytes": 25339,
+        "usedBytes": 92,
+        "unusedBytes": 25247,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://assets.squarespace.com/universal/styles-compressed/d9036239517ac1a5-min.en-US.css",
+        "totalBytes": 5331,
+        "usedBytes": 0,
+        "unusedBytes": 5331,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/styles__ltr.css",
+        "totalBytes": 82857,
+        "usedBytes": 2987,
+        "unusedBytes": 79870,
+        "unusedPercent": 96
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv&co=aHR0cHM6Ly93d3cubWFoYWF0dGllLmNvbTo0NDM.&hl=en&v=MerVUtRoajKEbP7pLiGXkL28&size=invisible&anchor-ms=20000&execute-ms=30000&cb=f2recpiw0r5o",
+        "totalBytes": 16160,
+        "usedBytes": 0,
+        "unusedBytes": 16160,
+        "unusedPercent": 100
+      }
+    ],
+    "totalBytes": 1946741,
+    "usedBytes": 277279,
+    "unusedBytes": 1669462,
+    "unusedPercent": 86,
+    "importantCount": 826,
+    "duplicates": 16594,
+    "vendorPrefixes": {
+      "webkit": 512,
+      "moz": 91,
+      "ms": 160,
+      "o": 8
+    },
+    "keyframes": [],
+    "specificity": {
+      "max": [
+        2,
+        12,
+        11
+      ],
+      "average": [
+        0.02,
+        3.31,
+        0.3
+      ],
+      "count": 10608
+    },
+    "issues": [
+      "826 !important rules",
+      "16594 duplicate declarations",
+      "86% unused CSS"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+Build a landing page with this exact visual language.
+COLORS:
+  #1d2944
+  #e4e8ec
+  #000000
+  #8492ae
+  #ffffff
+  #c1c1c1
+FONTS: [object Object], [object Object], [object Object]
+SPACING: 1, 32, 36, 64, 71, 84, 92
+RADIUS: 2, 50, 150, 300
+SHADOWS: rgb(128, 128, 128) 0px 0px 5px 0px
+MATERIAL LANGUAGE: flat
+VOICE: Tone: friendly · Headings: Title Case · CTA verbs: [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+SECTIONS (in order):
+- testimonial — heading: "Strategic Real Estate Advisory For Long-Term Value"
+- hero — heading: "Strategic Real Estate Advisory For Long-Term Value"
+- cta — heading: "I advise clients on real estate decisions with a focus on structure, timing, and"
+- testimonial — heading: ""Maha is on a mission to better grasp your needs and desires in order to bring t"
+- hero — heading: "My advisory work is supported by SkyRise, a real estate and contracting firm wit"
+- hero — heading: "Work with a real estate advisor who prioritizes your vision and protects your in"
+- hero — heading: "How I Select the Right Property, A Structured Approach to Decisions."
+- cta — heading: "Subscribe To Our Newletter"
+- footer
+Use Tailwind. Match these tokens exactly. Keep the material language consistent.

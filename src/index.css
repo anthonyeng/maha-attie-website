@@ -3,16 +3,16 @@
 @import "@fontsource-variable/inter";
 
 @theme {
-  --color-ink: #15202D;
-  --color-ink-soft: #27313D;
-  --color-paper: #EDE9E1;
-  --color-stone: #E3DDD2;
-  --color-bronze: #A06A3B;
-  --color-bronze-dk: #8A5A30;
-  --color-muted: #6A6258;
-  --color-line: #D6CFC2;
-  --color-bronze-glow: rgba(160,106,59,0.4);
-  --color-ink-deep: #0D1520;
+  --color-ink: #000000;
+  --color-ink-soft: #1d2944;
+  --color-paper: #ffffff;
+  --color-stone: #e4e8ec;
+  --color-bronze: #1d2944;
+  --color-bronze-dk: #141d33;
+  --color-muted: #8492ae;
+  --color-line: #c1c1c1;
+  --color-bronze-glow: rgba(29,41,68,0.3);
+  --color-ink-deep: #0f1521;
 
   --font-serif: "Cormorant Garamond Variable", "Cormorant Garamond", Georgia, serif;
   --font-sans: "Inter Variable", "Inter", system-ui, sans-serif;
@@ -59,8 +59,8 @@ body::after {
 .glass {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  background-color: rgba(237, 233, 225, 0.6);
-  border: 1px solid rgba(214, 207, 194, 0.4);
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(193, 193, 193, 0.4);
 }
 
 /* Gradient mesh animation */

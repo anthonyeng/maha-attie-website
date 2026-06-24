@@ -1,0 +1,44 @@
+{
+  "openGraph": {
+    "site_name": "Maha Attié ",
+    "title": "Maha Attié  | Real Eatate Advisory",
+    "url": "https://www.mahaattie.com",
+    "type": "website",
+    "description": "Professional real estate advisory focusing on long-term value, investment strategies, and property sourcing in Lebanon, Cyprus, and Greece. Book your consultation today."
+  },
+  "twitter": {
+    "title": "Maha Attié  | Real Eatate Advisory",
+    "url": "https://www.mahaattie.com",
+    "card": "summary",
+    "description": "Professional real estate advisory focusing on long-term value, investment strategies, and property sourcing in Lebanon, Cyprus, and Greece. Book your consultation today."
+  },
+  "description": "Professional real estate advisory focusing on long-term value, investment strategies, and property sourcing in Lebanon, Cyprus, and Greece. Book your consultation today.",
+  "canonical": null,
+  "themeColor": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/ef823efc-2555-49d8-8550-0fdb20c27ab0/favicon.ico",
+      "sizes": "",
+      "type": "image/x-icon"
+    }
+  ],
+  "manifest": null,
+  "structuredData": [
+    {
+      "type": "WebSite",
+      "name": "Maha Attié ",
+      "sample": "{\"url\":\"https://www.mahaattie.com\",\"name\":\"Maha Attié \",\"description\":\"\",\"@context\":\"http://schema.org\",\"@type\":\"WebSite\"}"
+    }
+  ],
+  "score": {
+    "hasOg": true,
+    "hasTwitter": true,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": true,
+    "hasFavicon": true,
+    "hasThemeColor": false
+  }
+}

@@ -151,8 +151,8 @@ function PhilosophySection() {
       {/* Left — full-bleed image */}
       <div className="relative h-[50vh] lg:h-auto">
         <PhotoFrame
-          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
-          alt="Modern architectural interior — real estate advisory"
+          src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/8437e5aa-4598-4eee-9944-0f9546b3a2a3/WhatsApp+Image+2026-05-04+at+18.20.58.jpeg"
+          alt="Lifestyle magazine on table"
           aspect="aspect-auto"
           parallax
           className="!absolute inset-0 h-full w-full"
@@ -251,8 +251,8 @@ export default function About() {
             <Reveal direction="left">
               <div className="group overflow-hidden">
                 <PhotoFrame
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
-                  alt="Modern architectural interior — real estate advisory"
+                  src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/7265c468-a466-474f-9a20-912f4cba4213/sisi+lafricaine18569.jpg"
+                  alt="Maha Attie near window"
                   aspect="aspect-[4/5]"
                   parallax
                   className="transition-transform duration-700 group-hover:scale-[1.03]"
@@ -262,8 +262,8 @@ export default function About() {
             <Reveal direction="right" delay={0.15}>
               <div className="group overflow-hidden md:mt-24">
                 <PhotoFrame
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
-                  alt="Maha Attie portrait"
+                  src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/87f02aeb-e81c-41a5-8b62-52827d3c490b/sisi+lafricaine19522.jpg"
+                  alt="Maha Attie arms crossed portrait"
                   aspect="aspect-[3/4]"
                   className="transition-transform duration-700 group-hover:scale-[1.03]"
                 />
@@ -275,8 +275,8 @@ export default function About() {
           <Reveal delay={0.2} className="mt-8 lg:mt-12">
             <div className="group overflow-hidden">
               <PhotoFrame
-                src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
-                alt="Mediterranean cityscape — advisory markets"
+                src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/9cb5004a-1f74-414f-b3bc-eb62f437f450/56cc8da880100a0bd7cb09300dcf21a2.jpg"
+                alt="Living room interior"
                 aspect="aspect-[21/9]"
                 parallax
                 className="transition-transform duration-700 group-hover:scale-[1.03]"

@@ -71,7 +71,7 @@ export default function InteractiveMap({
         {/* Coastline hint */}
         <path
           d="M0 200 Q200 180 400 220 Q600 260 800 240 L800 600 L0 600 Z"
-          fill="#E3DDD2"
+          fill="#e4e8ec"
           opacity="0.2"
         />
 
@@ -79,8 +79,8 @@ export default function InteractiveMap({
           <motion.path
             key={market.name}
             d={market.d}
-            fill={isActive(market.name) ? '#A06A3B' : '#6A6258'}
-            stroke="#EDE9E1"
+            fill={isActive(market.name) ? '#1d2944' : '#8492ae'}
+            stroke="#ffffff"
             strokeWidth="1"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}

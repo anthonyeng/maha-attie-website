@@ -1,0 +1,381 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.31,
+    "path": "/",
+    "title": "Maha Attié | Real Eatate Advisory",
+    "description": "Professional real estate advisory focusing on long-term value, investment strategies, and property sourcing in Lebanon, Cyprus, and Greece. Book your consultation today.",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "blog-post",
+        "weight": 0.35,
+        "detail": "byline|min-read"
+      },
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      }
+    ],
+    "alternates": [
+      {
+        "type": "blog-post",
+        "score": 0.35
+      }
+    ],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 70.984375
+        },
+        "buttonCount": 3,
+        "cardCount": 18,
+        "slots": {
+          "ctaCount": 3,
+          "lede": "SKIP TO CONTENT\nMaha Attié\nHome\nAbout\nBlog\nContact"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 1,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 906.453125,
+          "y": 16.671875,
+          "w": 354.359375,
+          "h": 37.625
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "lede": "Home\nAbout\nBlog\nContact"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 2,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "lede": ""
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 3,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 90.984375,
+          "w": 1280,
+          "h": 729.015625
+        },
+        "buttonCount": 0,
+        "cardCount": 8,
+        "slots": {},
+        "needsSmart": false
+      },
+      {
+        "index": 4,
+        "tag": "main",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "Strategic Real Estate Advisory For Long-Term Value",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 5493.9375
+        },
+        "buttonCount": 23,
+        "cardCount": 37,
+        "slots": {
+          "heading": "Strategic Real Estate Advisory For Long-Term Value",
+          "subheadings": [
+            "I advise clients on real estate decisions with a focus on structure, timing, and long-term value. Each engagement is approached with clarity and discipline, ensuring that every step is aligned with both investment logic and personal objectives.",
+            "Services",
+            "01. Strategic Consultation\n02. Framing Mandate\n03. Advisory Retainer\n04. Development Sales\n05. Exclusivity Mandate",
+            "\"Maha is on a mission to better grasp your needs and desires in order to bring them to life with unconditional commitment, safety and trust.\""
+          ],
+          "ctaCount": 23
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.85,
+        "heading": "Strategic Real Estate Advisory For Long-Term Value",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 793.546875
+        },
+        "buttonCount": 3,
+        "cardCount": 0,
+        "slots": {
+          "heading": "Strategic Real Estate Advisory For Long-Term Value",
+          "ctaCount": 3
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "role": "cta",
+        "subrole": null,
+        "confidence": 0.75,
+        "heading": "I advise clients on real estate decisions with a focus on structure, timing, and long-term value. Each engagement is approached with clarity and discipline, ensuring that every step is aligned with both investment logic and personal objectives.",
+        "bounds": {
+          "x": 0,
+          "y": 793.546875,
+          "w": 1280,
+          "h": 1609.5625
+        },
+        "buttonCount": 3,
+        "cardCount": 0,
+        "slots": {
+          "heading": "I advise clients on real estate decisions with a focus on structure, timing, and long-term value. Each engagement is approached with clarity and discipline, ensuring that every step is aligned with both investment logic and personal objectives.",
+          "subheadings": [
+            "Services",
+            "01. Strategic Consultation\n02. Framing Mandate\n03. Advisory Retainer\n04. Development Sales\n05. Exclusivity Mandate"
+          ],
+          "ctaCount": 3,
+          "lede": "I advise clients on real estate decisions with a focus on structure, timing, and long-term value. Each engagement is approached with clarity and discipline, ensuring that every step is aligned with both investment logic and personal objectives.\nServices\n01. Strategic Consultation\n02. Framing Mandate\n03. Advisory Retainer\n04. Development Sales\n05. Exclusivity Mandate\nLearn more"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "\"Maha is on a mission to better grasp your needs and desires in order to bring them to life with unconditional commitment, safety and trust.\"",
+        "bounds": {
+          "x": 0,
+          "y": 2403.109375,
+          "w": 1280,
+          "h": 496.015625
+        },
+        "buttonCount": 4,
+        "cardCount": 34,
+        "slots": {
+          "heading": "\"Maha is on a mission to better grasp your needs and desires in order to bring them to life with unconditional commitment, safety and trust.\"",
+          "subheadings": [
+            "\"Grâce à son implication et à sa persévérance, tout s’est déroulé dans de très bonnes conditions. Grâce à elle, j’ai pu acheter ce pied-à-terre à Beyrouth.\"",
+            "\"Une collaboration de confiance que nous recommandons vivement aux représentations diplomatiques.\"",
+            "“Ce que nous avons construit allait bien plus loin qu’un projet: un dialogue entre deux visions, deux énergies, qui ont fini par donner naissance à une création commune.”"
+          ],
+          "ctaCount": 4
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "My advisory work is supported by SkyRise, a real estate and contracting firm with over 15 years of operational experience across Lebanon, Cyprus, and Greece.",
+        "bounds": {
+          "x": 0,
+          "y": 2899.125,
+          "w": 1280,
+          "h": 877.6875
+        },
+        "buttonCount": 3,
+        "cardCount": 0,
+        "slots": {
+          "heading": "My advisory work is supported by SkyRise, a real estate and contracting firm with over 15 years of operational experience across Lebanon, Cyprus, and Greece.",
+          "ctaCount": 3
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Work with a real estate advisor who prioritizes your vision and protects your investment.",
+        "bounds": {
+          "x": 0,
+          "y": 3776.8125,
+          "w": 1280,
+          "h": 441.25
+        },
+        "buttonCount": 3,
+        "cardCount": 0,
+        "slots": {
+          "heading": "Work with a real estate advisor who prioritizes your vision and protects your investment.",
+          "ctaCount": 3,
+          "lede": "Work with a real estate advisor who prioritizes your vision and protects your investment.\nBook a Private Consultation"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "How I Select the Right Property, A Structured Approach to Decisions.",
+        "bounds": {
+          "x": 0,
+          "y": 4218.0625,
+          "w": 1280,
+          "h": 747.875
+        },
+        "buttonCount": 3,
+        "cardCount": 0,
+        "slots": {
+          "heading": "How I Select the Right Property, A Structured Approach to Decisions.",
+          "ctaCount": 3
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "role": "cta",
+        "subrole": null,
+        "confidence": 0.75,
+        "heading": "Subscribe To Our Newletter",
+        "bounds": {
+          "x": 0,
+          "y": 4965.9375,
+          "w": 1280,
+          "h": 528
+        },
+        "buttonCount": 4,
+        "cardCount": 1,
+        "slots": {
+          "heading": "Subscribe To Our Newletter",
+          "ctaCount": 4
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 12,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 332.34375,
+          "y": 5216.59375,
+          "w": 510.921875,
+          "h": 0
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {},
+        "needsSmart": true
+      },
+      {
+        "index": 13,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 5493.9375,
+          "w": 1280,
+          "h": 351.5625
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "Address"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 5493.9375,
+          "w": 1280,
+          "h": 351.5625
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "Address"
+        },
+        "needsSmart": true
+      }
+    ],
+    "counts": {
+      "nav": 5,
+      "testimonial": 2,
+      "hero": 4,
+      "cta": 2,
+      "footer": 1,
+      "content": 1
+    },
+    "readingOrder": [
+      "nav",
+      "nav",
+      "testimonial",
+      "hero",
+      "nav",
+      "nav",
+      "cta",
+      "testimonial",
+      "hero",
+      "hero",
+      "hero",
+      "cta",
+      "nav",
+      "footer",
+      "content"
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#1d2944",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#e4e8ec",
+          "name": "Secondary"
+        },
+        {
+          "slug": "neutral-1",
+          "color": "#000000",
+          "name": "Neutral 1"
+        },
+        {
+          "slug": "neutral-2",
+          "color": "#8492ae",
+          "name": "Neutral 2"
+        },
+        {
+          "slug": "neutral-3",
+          "color": "#ffffff",
+          "name": "Neutral 3"
+        },
+        {
+          "slug": "neutral-4",
+          "color": "#c1c1c1",
+          "name": "Neutral 4"
+        },
+        {
+          "slug": "bg-1d2944",
+          "color": "#1d2944",
+          "name": "Background #1d2944"
+        },
+        {
+          "slug": "bg-e4e8ec",
+          "color": "#e4e8ec",
+          "name": "Background #e4e8ec"
+        },
+        {
+          "slug": "bg-8492ae",
+          "color": "#8492ae",
+          "name": "Background #8492ae"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "gradient-1",
+          "gradient": "linear-gradient(rgb(29, 41, 68), rgb(29, 41, 68))",
+          "name": "Gradient 1"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "salmanazar-lk7x9s",
+          "slug": "salmanazar-lk7x9s",
+          "name": "salmanazar-lk7x9s"
+        },
+        {
+          "fontFamily": "aktiv-grotesk",
+          "slug": "aktiv-grotesk",
+          "name": "aktiv-grotesk"
+        },
+        {
+          "fontFamily": "ibm-plex-mono",
+          "slug": "ibm-plex-mono",
+          "name": "ibm-plex-mono"
+        }
+      ],
+      "fontSizes": [
+        {
+          "size": "54.4px",
+          "slug": "size-54.4",
+          "name": "54.4px"
+        },
+        {
+          "size": "48px",
+          "slug": "size-48",
+          "name": "48px"
+        },
+        {
+          "size": "46.72px",
+          "slug": "size-46.72",
+          "name": "46.72px"
+        },
+        {
+          "size": "40.8525px",
+          "slug": "size-40.8525",
+          "name": "40.8525px"
+        },
+        {
+          "size": "26.752px",
+          "slug": "size-26.752",
+          "name": "26.752px"
+        },
+        {
+          "size": "26.5728px",
+          "slug": "size-26.5728",
+          "name": "26.5728px"
+        },
+        {
+          "size": "25.216px",
+          "slug": "size-25.216",
+          "name": "25.216px"
+        },
+        {
+          "size": "22.144px",
+          "slug": "size-22.144",
+          "name": "22.144px"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "size": "1px",
+          "slug": "spacing-1",
+          "name": "1px"
+        },
+        {
+          "size": "32px",
+          "slug": "spacing-32",
+          "name": "32px"
+        },
+        {
+          "size": "36px",
+          "slug": "spacing-36",
+          "name": "36px"
+        },
+        {
+          "size": "64px",
+          "slug": "spacing-64",
+          "name": "64px"
+        },
+        {
+          "size": "71px",
+          "slug": "spacing-71",
+          "name": "71px"
+        },
+        {
+          "size": "84px",
+          "slug": "spacing-84",
+          "name": "84px"
+        },
+        {
+          "size": "92px",
+          "slug": "spacing-92",
+          "name": "92px"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "100%",
+      "wideSize": "1400px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#1d2944",
+      "text": "#000000"
+    },
+    "typography": {
+      "fontSize": "22.144px",
+      "lineHeight": "33.216px",
+      "fontFamily": "salmanazar-lk7x9s"
+    },
+    "spacing": {}
+  }
+}

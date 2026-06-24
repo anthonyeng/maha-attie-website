@@ -1,0 +1,82 @@
+{
+  "tone": "friendly",
+  "pronoun": "third-person",
+  "headingStyle": "Title Case",
+  "headingLengthClass": "verbose",
+  "ctaVerbs": [
+    {
+      "value": "book",
+      "count": 6
+    },
+    {
+      "value": "learn",
+      "count": 3
+    },
+    {
+      "value": "visit",
+      "count": 3
+    },
+    {
+      "value": "read",
+      "count": 3
+    },
+    {
+      "value": "sign",
+      "count": 3
+    },
+    {
+      "value": "contact",
+      "count": 1
+    },
+    {
+      "value": "skip",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "book a private consultation",
+      "count": 6
+    },
+    {
+      "value": "learn more",
+      "count": 3
+    },
+    {
+      "value": "visit skyrise",
+      "count": 3
+    },
+    {
+      "value": "read more",
+      "count": 3
+    },
+    {
+      "value": "sign up",
+      "count": 3
+    },
+    {
+      "value": "skip to content\nmaha attié\nhome\nabout\nblog\ncontact\nstrategic real estate advisory for long-term value\n\nhelping investors make disciplined real-estate decisions",
+      "count": 1
+    },
+    {
+      "value": "skip to content",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [
+    "Strategic Real Estate Advisory For Long-Term Value",
+    "I advise clients on real estate decisions with a focus on structure, timing, and long-term value. Each engagement is approached with clarity and discipline, ensuring that every step is aligned with both investment logic and personal objectives.",
+    "Services",
+    "01. Strategic Consultation\n02. Framing Mandate\n03. Advisory Retainer\n04. Development Sales\n05. Exclusivity Mandate",
+    "\"Maha is on a mission to better grasp your needs and desires in order to bring them to life with unconditional commitment, safety and trust.\"",
+    "Strategic Real Estate Advisory For Long-Term Value",
+    "I advise clients on real estate decisions with a focus on structure, timing, and long-term value. Each engagement is approached with clarity and discipline, ensuring that every step is aligned with both investment logic and personal objectives.",
+    "Services",
+    "01. Strategic Consultation\n02. Framing Mandate\n03. Advisory Retainer\n04. Development Sales\n05. Exclusivity Mandate",
+    "\"Maha is on a mission to better grasp your needs and desires in order to bring them to life with unconditional commitment, safety and trust.\""
+  ],
+  "stats": {
+    "buttons": 20,
+    "headings": 17
+  }
+}

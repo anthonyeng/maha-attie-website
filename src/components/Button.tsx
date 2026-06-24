@@ -24,7 +24,7 @@ export default function Button({
   const base = 'inline-flex items-center gap-2 font-sans font-medium transition-all duration-300'
   const variants = {
     primary:
-      'bg-bronze text-paper px-7 py-3.5 text-sm tracking-[0.08em] uppercase hover:bg-bronze-dk hover:-translate-y-px hover:shadow-[0_4px_20px_rgba(160,106,59,0.3)]',
+      'bg-bronze text-paper px-7 py-3.5 text-sm tracking-[0.08em] uppercase hover:bg-bronze-dk hover:-translate-y-px hover:shadow-[0_4px_20px_rgba(29,41,68,0.3)]',
     ghost:
       'border border-line text-ink px-7 py-3.5 text-sm tracking-[0.08em] uppercase hover:border-bronze hover:text-bronze',
     link: 'text-bronze text-sm tracking-[0.08em] uppercase hover:text-bronze-dk group',

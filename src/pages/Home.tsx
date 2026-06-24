@@ -68,7 +68,7 @@ function HeroSection() {
           translateX: '-50%',
           translateY: '-50%',
           background:
-            'radial-gradient(circle, rgba(160,106,59,0.15) 0%, transparent 70%)',
+            'radial-gradient(circle, rgba(29,41,68,0.15) 0%, transparent 70%)',
           borderRadius: '50%',
         }}
       />
@@ -117,7 +117,7 @@ function HeroSection() {
             transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           >
             <PhotoFrame
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
+              src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/87f02aeb-e81c-41a5-8b62-52827d3c490b/sisi+lafricaine19522.jpg"
               alt="Maha Attie — private real estate advisory"
               aspect="aspect-[3/4]"
               parallax
@@ -336,7 +336,7 @@ function DarkInterlude() {
             ))}
           </h2>
           <PhotoFrame
-            src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
+            src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/9cb5004a-1f74-414f-b3bc-eb62f437f450/56cc8da880100a0bd7cb09300dcf21a2.jpg"
             alt="Real estate advisory — disciplined execution"
             aspect="aspect-[4/5]"
           />
@@ -403,24 +403,24 @@ function HorizontalScrollGallery() {
 
   const galleryImages = [
     {
-      src: articles[0].image,
-      alt: articles[0].title,
+      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/87f02aeb-e81c-41a5-8b62-52827d3c490b/sisi+lafricaine19522.jpg',
+      alt: 'Maha Attie — arms crossed portrait',
     },
     {
-      src: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80',
-      alt: 'Luxury property interior',
+      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/7265c468-a466-474f-9a20-912f4cba4213/sisi+lafricaine18569.jpg',
+      alt: 'Maha Attie near window',
     },
     {
-      src: articles[1].image,
-      alt: articles[1].title,
+      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/9cb5004a-1f74-414f-b3bc-eb62f437f450/56cc8da880100a0bd7cb09300dcf21a2.jpg',
+      alt: 'Living room interior',
     },
     {
-      src: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80',
-      alt: 'Modern villa exterior',
+      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/8437e5aa-4598-4eee-9944-0f9546b3a2a3/WhatsApp+Image+2026-05-04+at+18.20.58.jpeg',
+      alt: 'Lifestyle magazine',
     },
     {
-      src: articles[2].image,
-      alt: articles[2].title,
+      src: 'https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/69ab4d05-e6cd-43e2-9cf6-a7413d04b335/sisi+lafricaine18405.jpg',
+      alt: 'Maha Attie — white suit portrait',
     },
   ]
 
@@ -441,7 +441,7 @@ function HorizontalScrollGallery() {
               <img
                 src={img.src}
                 alt={img.alt}
-                className="w-full h-full object-cover grayscale-[0.1] group-hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover transition-all duration-700"
                 loading="lazy"
               />
             </div>
@@ -501,7 +501,7 @@ function MapSection() {
             <GlassCard
               className={`transition-all duration-300 cursor-pointer ${
                 activeMarket === market.name
-                  ? 'border-bronze/60 shadow-[0_4px_30px_rgba(160,106,59,0.15)]'
+                  ? 'border-bronze/60 shadow-[0_4px_30px_rgba(29,41,68,0.15)]'
                   : ''
               }`}
             >

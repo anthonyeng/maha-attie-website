@@ -10,9 +10,9 @@ const blobs: Record<
   [string, string, string]
 > = {
   warm: [
-    'radial-gradient(circle, rgba(160,106,59,0.35) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(194,148,88,0.3) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(139,90,48,0.25) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(29,41,68,0.35) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(42,63,107,0.3) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(132,146,174,0.25) 0%, transparent 70%)',
   ],
   cool: [
     'radial-gradient(circle, rgba(59,130,160,0.3) 0%, transparent 70%)',
@@ -20,9 +20,9 @@ const blobs: Record<
     'radial-gradient(circle, rgba(80,120,170,0.3) 0%, transparent 70%)',
   ],
   dark: [
-    'radial-gradient(circle, rgba(13,21,32,0.5) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(30,20,50,0.4) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(21,32,45,0.45) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(15,21,33,0.5) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(20,29,51,0.4) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(29,41,68,0.45) 0%, transparent 70%)',
   ],
 }
 

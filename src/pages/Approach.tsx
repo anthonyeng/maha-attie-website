@@ -96,8 +96,8 @@ export default function Approach() {
             {/* Sticky Photo */}
             <Reveal delay={0.2}>
               <PhotoFrame
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
-                alt="Maha Attié — structured advisory process"
+                src="https://images.squarespace-cdn.com/content/v1/69f0cf9a8c565a6461913bc2/69ab4d05-e6cd-43e2-9cf6-a7413d04b335/sisi+lafricaine18405.jpg"
+                alt="Maha Attie — structured advisory process"
                 aspect="aspect-[3/4]"
                 parallax
                 className="sticky top-32"

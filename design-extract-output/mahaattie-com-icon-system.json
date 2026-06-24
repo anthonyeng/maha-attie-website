@@ -1,0 +1,31 @@
+{
+  "library": "unknown",
+  "confidence": 0,
+  "alternates": [],
+  "stats": {
+    "count": 2,
+    "strokeOnly": 0,
+    "fillOnly": 2,
+    "mixed": 0,
+    "avgStrokeWidth": 0,
+    "gridDistribution": {},
+    "roundedCapsFraction": 0
+  },
+  "signals": [
+    "fillDominant"
+  ],
+  "icons": [
+    {
+      "class": "user-items-list-banner-slideshow__arrow-icon",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    },
+    {
+      "class": "user-items-list-banner-slideshow__arrow-icon",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    }
+  ]
+}
