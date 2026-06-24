@@ -18,7 +18,6 @@ import { services } from '../data/services'
 import { testimonials } from '../data/testimonials'
 import { articles } from '../data/articles'
 import { siteStats } from '../data/stats'
-import { pressMentions } from '../data/press'
 import { markets } from '../data/markets'
 
 const iconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
@@ -224,29 +223,6 @@ function PhilosophySection() {
 
 /* ───────────────────────── 5. Press Mentions ───────────────────────── */
 
-function PressMentionsSection() {
-  return (
-    <section className="border-t border-b border-line py-14">
-      <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
-        <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-12">
-          <span className="text-xs font-medium uppercase tracking-[0.18em] text-muted whitespace-nowrap">
-            Trusted By
-          </span>
-          <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-4">
-            {pressMentions.map((mention, i) => (
-              <span
-                key={i}
-                className="text-sm font-semibold uppercase tracking-[0.15em] text-ink-soft/50 whitespace-nowrap transition-colors hover:text-ink-soft"
-              >
-                {mention.name}
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
 
 /* ───────────────────────── 6. Services Preview ───────────────────────── */
 
@@ -605,7 +581,6 @@ export default function Home() {
       <TrustStrip />
       <StatsSection />
       <PhilosophySection />
-      <PressMentionsSection />
       <ServicesPreview />
       <DarkInterlude />
       <TestimonialsSection />
