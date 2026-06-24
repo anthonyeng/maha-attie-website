@@ -10,9 +10,9 @@ export const markets: Market[] = [
   {
     name: 'Lebanon',
     description: 'A home market understood from the inside: pricing, timing, and the realities of execution in Beirut and beyond.',
-    image: 'https://images.unsplash.com/photo-1579606032821-4e6161c81571?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1523978591478-c753949ff840?w=1200&q=80',
     stats: [{ label: 'Years Active', value: '15+' }, { label: 'Transactions', value: '150+' }, { label: 'Focus', value: 'Beirut & Mount Lebanon' }],
-    gallery: ['https://images.unsplash.com/photo-1579606032821-4e6161c81571?w=800&q=80', 'https://images.unsplash.com/photo-1568322503190-964e361fc5ee?w=800&q=80', 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=800&q=80'],
+    gallery: ['https://images.unsplash.com/photo-1523978591478-c753949ff840?w=800&q=80', 'https://images.unsplash.com/photo-1568322503190-964e361fc5ee?w=800&q=80', 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=800&q=80'],
   },
   {
     name: 'Cyprus',
