@@ -1,6 +1,7 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import Seo from '../components/Seo'
 import AnimatedPageHeader from '../components/AnimatedPageHeader'
+import InteractiveMap from '../components/InteractiveMap'
 import Reveal from '../components/Reveal'
 import PhotoFrame from '../components/PhotoFrame'
 import Button from '../components/Button'
@@ -23,6 +24,15 @@ export default function Markets() {
         headline="Three markets, one discipline."
         description="A consistent advisory approach across three distinct Mediterranean markets — each understood from the ground up."
       />
+
+      {/* ─── Interactive Map ─── */}
+      <section className="pb-24 lg:pb-32">
+        <div className="mx-auto max-w-[960px] px-6 lg:px-12">
+          <Reveal>
+            <InteractiveMap className="w-full" />
+          </Reveal>
+        </div>
+      </section>
 
       {/* ─── Market Detail Sections ─── */}
       <section className="pb-24 lg:pb-32">
